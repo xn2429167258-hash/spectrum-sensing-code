@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Optional external datasets
+*.h5
+*.hdf5
+*.mat
+*.npy
+*.npz
+!data/*.pkl
+
+# Training outputs
+runs/
+logs/
+analysis/
+results/
+outputs/
+wandb/
+tensorboard/
+*.pth
+!weights/
+!weights/*.pth
+!weights/**/*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Experiment artifacts
+*.csv
+!SOURCE_MANIFEST.csv
+!docs/SOURCE_MANIFEST.csv
+!docs/PACKAGE_MANIFEST.csv
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
